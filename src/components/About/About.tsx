@@ -15,17 +15,7 @@ const About: React.FC = () => {
       <section>
         <Fade duration={1000} delay={700} distance="30px">
           <div className="left">
-            <img src={img.src} alt="profile" />
-            <figcaption>
-              Solutions Architect, currently at{' '}
-              <a
-                href="https://www.twilio.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Twilio.
-              </a>
-            </figcaption>
+            <img src={img.src} alt="logo" />
           </div>
         </Fade>
         <Fade duration={1000} delay={1100} distance="30px">

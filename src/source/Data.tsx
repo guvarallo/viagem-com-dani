@@ -2,6 +2,7 @@ import React from 'react';
 
 import profilePicture from '../assets/profile.png';
 
+import logo from '../assets/LOGO.png';
 import conversations from '../assets/conversations.png';
 import cleanReact from '../assets/clean-react.jpg';
 import selfolio from '../assets/selfolio.mp4';
@@ -10,16 +11,16 @@ import extractify from '../assets/extractify.mp4';
 import weather from '../assets/weather.mp4';
 
 export const colors = {
-  background: '#F0EFEA',
+  background: '#FFFFFF',
   first: '#000B29',
   second: '#1E656D',
-  third: '#f22f46',
+  third: '#0abab5',
   fourth: '#F0EFEA',
 };
 
 export const headData = {
-  title: 'Gustavo Varallo | Solutions Architect',
-  description: `Welcome to Gustavo Varallo's website`,
+  title: 'Viagem com Dani',
+  description: `Bem vindo ao site Viagem com Dani`,
 };
 
 export const mainData = {
@@ -31,8 +32,8 @@ export const mainData = {
 };
 
 export const aboutData = {
-  sectionTitle: 'About',
-  img: { src: profilePicture },
+  sectionTitle: '',
+  img: { src: logo },
   p1: `My professional background includes many years in the commercial area - 
   where I gained experience with customer relationship building, account management, 
   teams management, hiring and training - but also a strong technical background 
